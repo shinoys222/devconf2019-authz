@@ -17,7 +17,7 @@ public class ImgUtil {
         InputStream is = null;
         ByteArrayOutputStream buffer = null;
         try {
-            File f = new File("devconf2019-service/images/" + imgName);
+            File f = new File("images/" + imgName);
             System.out.println(f.getAbsolutePath() + " " + f.exists());
 
             is = new FileInputStream(f);
